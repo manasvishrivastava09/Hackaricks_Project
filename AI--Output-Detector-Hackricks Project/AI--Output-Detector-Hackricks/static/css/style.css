@@ -1,0 +1,104 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(191, 189, 189);
+}
+
+header
+{
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.division{
+    position: relative;
+}
+
+.division h1{
+    position: absolute;
+    color: ivory;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.upload-section{
+    position: relative;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.upload-section .card{
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    
+}
+
+red{
+    color: red;
+    font-size: 20px;
+
+}
+green{
+    color: green;
+    font-size: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.division{
+    position: relative;
+    top:50%;
+    /* left:50%; */
+    /* transform: translate(-50%,-50%); */
+}
+
+#textbox {
+    font-family: serif;
+    font-size: 16pt;
+    width: 100%;
+    height: 480px;
+    padding: 20px 30px;
+    line-height: 1.6;
+}
+
+.bar-row {
+    height: 30px;
+}
+#real-percentage {
+    width: 80px;
+    vertical-align: top;
+}
+#bar-container {
+    width: 800px;
+    background-color: #ff7674;
+    line-height: 0.5;
+    position:relative;
+    top:6px;
+}
+#fake-percentage {
+    width: 80px;
+    vertical-align: top;
+}
+#bar {
+    display: inline-block;
+    height: 30px;
+    background-color: green;
+}
+em {
+    font-family: monospace;
+    font-style: normal;
+}
